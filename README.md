@@ -1,16 +1,21 @@
-# soundsync
 
-A new Flutter project.
+# SoundSync
 
-## Getting Started
+SoundSync is an app that you can use to discover new songs, it listens, analyzes and recognises the song. Afterwards you can search it on your favourite platform like Youtube, Spotify, SoundCloud, and, add it to your playlist.
 
-This project is a starting point for a Flutter application.
+The app is coded in Flutter and uses Firebase for authentification and storing data. For the recognition we use an API from ACRCloud.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Deployment
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+To deploy this project clone the repository and run:
+
+Get your API Key from ACRCloud and add it in the .env file
+
+Add Firebase configuration files
+
+```bash
+flutter pub get
+flutter run
+```
+
